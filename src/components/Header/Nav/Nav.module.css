@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  /* align-items: center; */
+  align-content: center;
+  padding: 14px 5px;
+}
+
+.navLink {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: cyan;
+  transition: all .2s;
+}

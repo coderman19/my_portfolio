@@ -1,0 +1,4 @@
+.footer {
+  background-color: darkgoldenrod;
+  grid-column-end: span 3;
+}
