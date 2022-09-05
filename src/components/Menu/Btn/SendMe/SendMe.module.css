@@ -1,17 +1,17 @@
 .sendme {
-  /* width: 120px; */
-  border-radius: 14px;
+  width: 100px;
+  border-radius: 6px;
   background-color: #3137C9;
   cursor: pointer;
 }
 
-.sendme p {
-  padding: 5px 10px;
+.sendme div {
+  padding: 5px 5px;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 14px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 10px;
   text-align: center;
   color: #FFFFFF;
 }

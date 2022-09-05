@@ -1,18 +1,17 @@
 
 .myjob {
-  /* width: 120px; */
-  border-radius: 14px;
+  width: 100px;
+  border-radius: 6px;
   background-color: #ED3024;
   cursor: pointer;
 }
 
-.myjob p {
+.myjob div {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 14px;
-  text-align: center;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 10px;
   color: #FFFFFF;
-  padding: 5px 10px;
+  padding: 5px 5px;
 }

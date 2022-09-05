@@ -48,12 +48,25 @@ p {
   margin-bottom: 20px;
 }
 
-
-
 .container {
   width: 580px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.active {
+  color: cyan;
+  transition: all .3s;
+}
+
+ .back {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: chocolate;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
 }
 
 

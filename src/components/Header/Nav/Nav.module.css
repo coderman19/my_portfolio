@@ -32,3 +32,8 @@
   color: cyan;
   transition: all .2s;
 }
+
+.header a{
+  padding: 20px;
+}
+
