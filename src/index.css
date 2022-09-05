@@ -5,17 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0a091a;
+  background-color: #24232c;
   color: #fff;
 }
 
 .App {
   display: grid;
-  grid-template-columns:repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
   grid-auto-flow: column;
   grid-auto-flow: row;
-  gap: 10px;
+  /* gap: 10px; */
  
 }
 

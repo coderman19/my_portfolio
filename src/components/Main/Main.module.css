@@ -1,5 +1,6 @@
 .main {
-  background-color: cornflowerblue;
+ 
   grid-row: 2 / span 4;
   grid-column: 2 / span 2;
 }
+

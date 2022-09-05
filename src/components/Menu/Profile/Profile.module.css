@@ -1,12 +1,16 @@
 .profile {
   position: relative;
-  margin: 130px 100px 100px;
-  width: 100px;
-  height: 100px;
+  margin: 0 auto;
+  width: 50px;
+  height:  50px;
+  align-items: center;
+  text-align: center;
   border-radius: 50%;
   background-image: url('../../../img/profile/foto-1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 20px;
+
   margin-bottom: 20px;
 }

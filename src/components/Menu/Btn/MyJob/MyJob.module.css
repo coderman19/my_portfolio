@@ -1,17 +1,18 @@
 
 .myjob {
-  width: 120px;
-  border-radius: 25px;
+  /* width: 120px; */
+  border-radius: 14px;
   background-color: #ED3024;
+  cursor: pointer;
 }
 
 .myjob p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 14px;
   text-align: center;
   color: #FFFFFF;
-  padding: 13px 25px;
+  padding: 5px 10px;
 }
