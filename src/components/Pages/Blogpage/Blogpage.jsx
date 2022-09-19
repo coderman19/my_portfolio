@@ -1,15 +1,28 @@
-import { useNavigate } from 'react-router-dom';
 
+
+import { Back } from '../../Back/Back';
+// eslint-disable-next-line no-unused-vars
+import articles from '../../Articles/article.json';
 import style from './Blogpage.module.css';
 
-export const Blogpage = () => {
-  const navigate = useNavigate();
+export const Blogpage = (props) => {
 
-  const goBack = () => navigate('/');
   return (
     <div className={style.blogpage}>
-    <button className='back' onClick={goBack}>Назад</button>
       <h3>Blogpage</h3>
+      <div className="txt">
+       {articles.map((obj) => (
+        <>
+          <h5>
+            {obj.title}
+          </h5>
+          <p>
+            {obj.body}
+          </p>
+        </>
+       ))}
+      </div>
+      <Back />
     </div>
   );
 };

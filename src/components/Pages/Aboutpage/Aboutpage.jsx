@@ -1,15 +1,16 @@
-import { useNavigate } from 'react-router-dom';
-
+import { Back } from '../../Back/Back';
+import Posts from '../../Articles/Posts';
 import style from './Aboutpage.module.css';
 
-export const Aboutpage = () => {
-  const navigate = useNavigate();
 
-  const goBack = () => navigate('/');
+export const Aboutpage = () => {
+ 
   return (
-    <div className={style.aboutpage}>
-    <button className='back' onClick={goBack}>Назад</button>
-      <h3>Aboutpage</h3>
-    </div>
+    <>
+      <div className={style.aboutpage}>
+        <Posts />
+        <Back />
+      </div>
+    </> 
   );
 };

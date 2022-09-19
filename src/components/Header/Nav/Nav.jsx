@@ -1,22 +1,35 @@
 import React from 'react';
 import style from './Nav.module.css';
 import { NavLink } from 'react-router-dom';
+import { Aboutpage } from '../../Pages/Aboutpage/Aboutpage';
+import { Blogpage } from '../../Pages/Blogpage/Blogpage';
+import { Contacts } from '../../Pages/Contacts/Contacts';
+import { Homepage } from '../../Pages/Homepage/Homepage';
+
 
 export const Nav = (props) => {
-  // let nav = { main: '/index', about: '/about', price: '/buy/price', contacts: '/contacts' };
   return (
     <div className={style.nav}>
-     <header className={style.header}>
-        <NavLink to="/">Главная</NavLink>
-        <NavLink to="/posts">Статьи</NavLink>
-        <NavLink to="/about">Мои работы</NavLink>
-        <NavLink to="/contacts">Контакты</NavLink>
-      </header>
-    {/* <ul className={style.ulList}>
-          {Object.keys(nav).map(item => {
-              return <li><a href={nav[item]}>{item}</a></li>
-            })}
-        </ul> */}
+       <ul>
+        <li>
+          <NavLink to="/" element={<Homepage/>}>главная</NavLink>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <NavLink to="/about" element={<Aboutpage/>}>мои работы</NavLink>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <NavLink to="/blog" element={<Blogpage/>}>статьи</NavLink>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <NavLink to="/contact" element={<Contacts />}>контакты</NavLink>
+        </li>
+      </ul>
     </div>
   );
 };

@@ -4,11 +4,13 @@ import { Info } from './Info/Info';
 import { Social } from './Social/Social';
 import { Description } from './Description/Description';
 import { Btn } from './Btn/Btn';
+// import Burger from '../Burger/Burger';
 import articles from '../Articles/article.json';
 
 export const Menu = () => {
   return (
     <div className={style.menu}>
+      {/* <Burger /> */}
       <Profile />
       <Info />
       <Social />
