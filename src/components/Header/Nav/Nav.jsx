@@ -1,4 +1,5 @@
 import React from 'react';
+
 import style from './Nav.module.css';
 import { NavLink } from 'react-router-dom';
 import { Aboutpage } from '../../Pages/Aboutpage/Aboutpage';
@@ -8,6 +9,7 @@ import { Homepage } from '../../Pages/Homepage/Homepage';
 
 
 export const Nav = (props) => {
+
   return (
     <div className={style.nav}>
        <ul>
@@ -27,7 +29,9 @@ export const Nav = (props) => {
       </ul>
       <ul>
         <li>
-          <NavLink to="/contact" element={<Contacts />}>контакты</NavLink>
+          <NavLink
+            to="/contact" 
+            element={<Contacts />}>контакты</NavLink>
         </li>
       </ul>
     </div>

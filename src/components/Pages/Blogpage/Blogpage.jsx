@@ -1,28 +1,32 @@
 
 
-import { Back } from '../../Back/Back';
-// eslint-disable-next-line no-unused-vars
+import {Back} from '../../Back/Back';
+
 import articles from '../../Articles/article.json';
 import style from './Blogpage.module.css';
+
 
 export const Blogpage = (props) => {
 
   return (
-    <div className={style.blogpage}>
+    <div className="container">
+      <div className={style.blogpage}>
       <h3>Blogpage</h3>
-      <div className="txt">
-       {articles.map((obj) => (
-        <>
-          <h5>
-            {obj.title}
-          </h5>
-          <p>
-            {obj.body}
-          </p>
-        </>
-       ))}
+        <div className="txt">
+        {articles.map((obj) => (
+          <>
+            <h4>
+              {obj.title}
+            </h4>
+            <p>
+              {obj.body}
+            </p>
+              {obj.href}
+          </>
+        ))}
+        </div>
+        <Back />
       </div>
-      <Back />
     </div>
   );
 };

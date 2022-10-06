@@ -7,10 +7,12 @@ export const Aboutpage = () => {
  
   return (
     <>
-      <div className={style.aboutpage}>
+     <div className="container">
+     <div className={style.aboutpage}>
         <Posts />
         <Back />
       </div>
+     </div>
     </> 
   );
 };
