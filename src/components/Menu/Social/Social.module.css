@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.socialLink a {
+  width: 24px;
+}
+
 /* .socialLink:hover {
   color: #209090;
   transition: all .3s;
